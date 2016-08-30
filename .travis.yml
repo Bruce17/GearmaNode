@@ -9,7 +9,7 @@ node_js:
 
 before_install:
   - sudo apt-get install python-software-properties
-  - sudo add-apt-repository ppa:gearman-developers/ppa
+  - sudo add-apt-repository ppa:gearman-developers/ppa -y
   - sudo apt-get update
 
 install:
