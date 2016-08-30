@@ -13,7 +13,7 @@ before_install:
   - sudo apt-get update
 
 install:
-  - sudo apt-get install gearman-job-server libgearman-devphp-pear php5-dev
+  - sudo apt-get install gearman-job-server libgearman-dev php-pear php5-dev
   - sudo pecl install gearman
 
 before_script:
